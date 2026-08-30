@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Props_Foliage
+  m_Shader: {fileID: 4800000, guid: a1b2c3d4e5f6789012345678abcdef01, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DIRECTIONMODE_GROUND_TOPDOWN
+  - _PIXELATE_GRADIENT
+  - _SNAP_TO_PPU
+  - _TEXTUREBLENDMODE_MULTIPLY_DETAIL
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CustomAngle: 90
+    - _Cutoff: 0.01
+    - _DirectionMode: 0
+    - _DstBlend: 10
+    - _GradientFalloff: 1
+    - _GradientHeight: 2
+    - _GradientSteps: 4
+    - _HighlightThickness: 0
+    - _PPU: 16
+    - _PixelateGradient: 1
+    - _RepeatGradient: 0
+    - _ScreenSplitY: 0.5
+    - _ScreenTransitionSoftness: 0.1
+    - _SnapToPPU: 1
+    - _SrcBlend: 5
+    - _SurfaceOffset: 0
+    - _TextureBlendMode: 1
+    - _TextureDetailStrength: 1
+    - _UseLocalSpace: 0
+    - _WorldMaxY: 5
+    - _WorldMinY: -5
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 0.22, g: 0.15, b: 0.1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 0.7, g: 0.95, b: 0.35, a: 1}
+    - _SurfaceColor: {r: 0.35, g: 0.85, b: 0.3, a: 1}
+  m_BuildTextureStacks: []
